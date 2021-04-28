@@ -83,6 +83,10 @@ table{
     
      
    }
+   sup{
+       color: red;
+       font-size: large;
+   }
  table.inner{
     border: 10px
    }
@@ -97,4 +101,6 @@ table{
 input[type=number] {
     width: 12.5em;  height: 2em;
 }
+
+
 
