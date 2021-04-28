@@ -86,3 +86,15 @@ table{
  table.inner{
     border: 10px
    }
+ /*  #email{
+        font-size: 18pt;
+        height: 42px;
+        width : 300px
+   }*/
+   input[type=email] {
+    width: 12.5em;  height: 2em;
+}
+input[type=number] {
+    width: 12.5em;  height: 2em;
+}
+
