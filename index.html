@@ -19,33 +19,34 @@
         <table align="center" cellpadding = "10">
         <!--------------------- First Name ------------------------------------------>
         <tr>
-        <td>First Name:</td>
-        <td><input type="text" name="FirstName" maxlength="50" placeholder="First name" />
+        <td>First Name:<sup>*</sup></td>
+        <td><input type="text" name="FirstName" maxlength="50" placeholder="First name" required/>
+        
         </td>
         </tr>
         <!------------------------ Last Name --------------------------------------->
         <tr>
-        <td>Last Name:</td>
-        <td><input type="text" name="LastName" maxlength="50" placeholder="Last Name"/>
+        <td>Last Name:<sup>*</sup></td>
+        <td><input type="text" name="LastName" maxlength="50" placeholder="Last Name" required/>
         </td>
         </tr>
         <!-------------------------- Email ID ------------------------------------->
         <tr>
-        <td>Email ID:</td>
-        <td><input type="email" name="EmailID" maxlength="100" placeholder="Email id" /></td>
+        <td>Email ID:<sup>*</sup></td>
+        <td><input type="email" name="EmailID" maxlength="100" placeholder="Email id" required/></td>
         </tr>
  
         <!-------------------------- Mobile Number ------------------------------------->
         <tr>
-        <td>Mobile Number:</td>
+        <td>Mobile Number:<sup>*</sup></td>
         <td>
-        <input type="text" name="MobileNumber" maxlength="10" placeholder="Number"/>
+        <input type="text" name="MobileNumber" maxlength="10" placeholder="Number" required/>
         </td>
         </tr>
         <tr>
-        <td>Password:</td>
+        <td>Password:<sup>*</sup></td>
         <td>
-        <input type="password" id="pwd" name="pwd" placeholder="password">
+        <input type="password" id="pwd" name="pwd" placeholder="password" required>
         </td>
         </tr>
         <!---------------------- Gender ------------------------------------->
@@ -122,32 +123,32 @@
         <!------------------------experience-------------------------------------------------->
         <tr>
             <td>Experience<br>(If worked before:)</td>
-            <td><label for="Stdate">Starting date:</label>
+            <td><label for="Stdate">Starting date:-</label>
                 <input type="date" id="stdate" name="stdate">
                 <br>
-                <label for="enddate">Ending Date:</label>
+                <label for="enddate">Ending Date:--</label>
                 <input type="date" id="enddate" name="enddate">
                 <br></td>
         </tr>
         <!----------------------photo----------------------->
         <tr>
-            <td>Attach your Passport size photo:</td>
-            <td><input type="file" id="myfile" name="myfile">
+            <td>Attach your Passport size photo:<sup>*</sup></td>
+            <td><input type="file" id="myfile" name="myfile" required>
                 <br></td>
         </tr>
         <!-------------------------range----------------------->
         <tr>
-            <td>Rate your knowledge in Web devolpment:</td>
-            <td><input type="range" id="exp" name="exp" min="0" max="15"></td>
+            <td>Rate your knowledge in Web devolpment:<sup>*</sup></td>
+            <td><input type="range" id="exp" name="exp" min="0" max="15" required></td>
         </tr>
         <!------------------------------------url------------>
         <tr>
           <td>Profile links:</td>
           <td>
-            <label for="ul">Add your LinkedIn profile link:</label>
-            <input type="url" id="ul" name="ul">
+            <label for="ul">Add your LinkedIn profile link:<sup>*</sup></label>
+            <input type="url" id="ul" name="ul" required>
             <br>
-            <label for="el">Add your GitHub profile link:</label>
+            <label for="el">Add your GitHub profile link:--</label>
             <input type="url" id="el" name="el">
             <br></td>
         </tr>      
