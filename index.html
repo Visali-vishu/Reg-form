@@ -1,7 +1,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Registration Form With Html & Css</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="style.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Student Registration Form Using Table in HTML</title>
 </head>
@@ -15,8 +19,44 @@
            Don't miss this Amazing oppurtunity!
     </pre></p>
     </div>
+   <div class="container">
+        <h2>Carousel Example</h2>  
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+           <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+      
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+         <div class="item active">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjRrBXyxeX1mSL1SPTFDVVvg-rcB-cl1ft8g&usqp=CAU" alt="WEB" style="width:100%;">
+            </div>
+      
+            <div class="item">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2_7g9YfH0t0z3dyUNchzG9vj0CLkjOFpcWQ&usqp=CAU" alt="Chicago" style="width:100%;">
+            </div>
+          
+            <div class="item">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzbpAyQleYVfViyI925l_3_0QTJRf0W-feuA&usqp=CAU" alt="New york" style="width:100%;">
+            </div>
+          </div>
+      
+          <!-- Left and right controls -->
+         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div> 
     <h2>Student Registration Form For Web Development Workshop</h3>
-        <table align="center" cellpadding = "10">
+        <table align="center" cellpadding = "10" >
         <!--------------------- First Name ------------------------------------------>
         <tr>
         <td>First Name:<sup>*</sup></td>
@@ -24,12 +64,21 @@
         
         </td>
         </tr>
+       <!--<div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">5%</div>
+          </div>-->
+        
         <!------------------------ Last Name --------------------------------------->
         <tr>
         <td>Last Name:<sup>*</sup></td>
         <td><input type="text" name="LastName" maxlength="50" placeholder="Last Name" required/>
         </td>
         </tr>
+        <!--<div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+              <span class="sr-only">70% Complete</span>
+            </div>
+          </div>-->
         <!-------------------------- Email ID ------------------------------------->
         <tr>
         <td>Email ID:<sup>*</sup></td>
@@ -155,12 +204,17 @@
           <!----------------------- Submit and Reset ------------------------------->
         <tr>
         <td colspan="2" align="center">
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit" >
         <input type="reset" value="Reset">
         </td>
         </tr>
         </table>
         </form>
+        <!--<div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+              <span class="sr-only">70% Complete</span>
+            </div>
+          </div>-->
         
         
         
